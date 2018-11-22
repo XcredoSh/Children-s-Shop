@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Одежда детей</title>
+ <link rel="stylesheet" href="src/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+<body id="body">
+  <div class="pageload"></div>
+ <!-- header -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-sm-2 header_div logo_z">
+      <img src="src/images/img2.png" alt="brend" id="img"/>
+    </div>
+    <div class="col-md-6 col-sm-6 header_div">
+      <ul>
+        <li><a href="скидки.html">Скидки</a></li>
+        <li><a href="Доставка.html">Доставка</a></li>
+        <li><a href="Помощь.html">Помощь</a></li>
+        <li><a href="Игрушки.html">Игрушки</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-4 text-right  header_div">
+      <p id="tel">ТЕЛЕФОН ПОДДЕРЖКИ</p>
+      <h4>+998(71)202-202-1</h4>
+    </div>
+  </div>
+</div>
+<!-- scrolltop -->
+<button class="scroltop" id="scroltop" onclick="scrollToping()">
+  <span class="glyphicon glyphicon-menu-up"></span>
+</button>
+<!-- menu -->
+
+<div class="rood" id="rood">
+<div class="container menu_up" id="menu_up">
+  <div class="row">
+ <div class="col-md-3 col-sm-3 col-xs-3 " id="">
+    <ul class="nav navbar-nav navbar-center mibile_width">
+          <li class="dropdown ">
+            <a href="#" class="dropdown-toggle " id="dropdown-toggle" data-toggle="dropdown">КАТЕГОРИИ <b class="caret" id="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="мальчикам.html">мальчикам</a></li>
+              <li><a href="для девочек.html">для девочек</a></li>
+              <li><a href="новые проекты.html">новые проекты</a></li>
+            </ul>
+          </li>
+        </ul>
+ </div>
+
+<div class="col-md-6 col-sm-6 col-xs-6">
+   <form action="" method="POST" role="form">
+           <div class="form-group" id="form-group">
+             <input type="text" class="form-control" id="seorch_input" placeholder="Пойск">
+             <button id="seorch_btn">Найти</button>
+           </div>
+    </form>      
+</div>
+    <div class="col-md-3 col-sm-3 col-xs-3 dddd">
+      <div class="kobinet col-md-6 col-sm-6">
+        <p class="p_span p_size"><a href="КАБИНЕТ.html">КАБИНЕТ</a></p><br>
+        <p class="p_span">Войти</p>
+        <span class="glyphicon glyphicon-user" id="kobinet">
+        </span>
+      </div>
+      <div class="korzina col-md-6 col-sm-6">
+        <p class="p_span  p_size"><a href="КОРЗИНА.html">КОРЗИНА</a></p><br>
+        <p class="p_span">Нет <span style="font-size: 15px">товарав</span></p>
+        <p class="p_span">Нет <span style="font-size: 15px">товарав</span></p>
+        <span class="glyphicon glyphicon-shopping-cart" id="korzina">
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!-- close menu -->
+
+
+<!-- galereya -->
+<div class="container">
+  <div class="row row_con">
+    <div class="col-md-7 content_slider">
+     <div id="carousel-id" class="carousel slide" data-ride="carousel">
+           <ol class="carousel-indicators">
+             <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+             <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+             <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+           </ol>
+           <div class="carousel-inner">
+             <div class="item active">
+               <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src=" images/img.jpg" width="300px">
+               
+             </div>
+             <div class="item">
+               <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="new/support.jpg" width="300px" height="">
+              
+             </div>
+             <div class="item ">
+               <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="images/log20.jpg" width="300px">
+              
+             </div>
+             <div class="item">
+               <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/log17.jpg" width="300px" height="">
+              
+             </div>
+             <div class="item">
+               <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/log9.jpg" width="300px" height="">
+             
+             </div>
+             <div class="item">
+               <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/log18.jpg" width="300px" height="">
+             
+             </div>
+             <div class="item">
+               <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/log11.jpg" width="300px" height="">
+            
+             </div>
+             <!-- <div class="item">
+               <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/log10
+               .jpg" width="300px" height="">
+              
+             </div> -->
+             
+           </div>
+           <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+           <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+         </div>    
+    </div>
+    <div class="col-md-5 content_slider mobil_none text-center">
+      <img src="new/logonew.jpg" width="350px" height="300px">
+    </div>
+  </div>
+</div>
+<!-- content galereya -->
+<div class="container">
+  <div class="row row_gallereya">
+    <h3>КАК СДЕЛАТЬ ЗАКАЗ?</h3>
+    <div class="col-md-3 col-sm-6  col-xs-12 line">
+        <span class=" span_galereya glyphicon glyphicon-arrow-up" ></span>
+      <p class="gallereya"><b>Шаг 1<br></b>Выберите товар в каталоге или воспользуйтесь поиском.
+      </p>
+    </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+        <span class="glyphicon glyphicon-shopping-cart  span_galereya"></span>
+      <p class="gallereya"><b>Шаг 2</b><br>Положите товар в корзину, нажав кнопку "В корзину".
+      </p>
+    </div>
+    <div class="col-md-3 col-sm-6  col-xs-12">
+        <span class="glyphicon glyphicon-modal-window  span_galereya"></span>
+      <p class="gallereya"><b>Шаг 3</b><br>Оформите заказ: укажите желаемое количество товара.
+      </p>
+    </div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <span class="glyphicon glyphicon-inbox span_galereya"></span>
+      <p class="gallereya"><b>Шаг 4</b><br>Получите товар по любому удобному адресу.
+      </p>
+    </div>
+</div>
+</div>
+<div class="content">
+  <div class="container">
+    <div class="row"> 
+      <h3>ПОПУЛЯРНЫЕ ТОВАРЫ</h3>
+      <div class="col-md-3 col-sm-6 col-xs-12" id="101">
+        <div class="col-md-12 content-images">
+          <img src="new/eee.jpg" width="222px" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur</p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" id="btn" value="val_1" name="but_1"><p id="ffffff">Добавить в корзину</p></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 ">
+        <div class="col-md-12  content-images">
+          <img src="new/log3.jpg" width="100%"" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send2()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-12 content-images">
+          <img src="new/log4.jpg" width="100%" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send3()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-12  content-images">
+          <img src="new/log5.jpg" width="100%" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send4()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--close gallereya -->
+<br>
+<div class="content2">
+  <div class="container">
+    <div class="row">
+      <h3>РЕКОМЕНДОВАННЫЕ ТОВАРЫ</h3>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-12 content-images">
+          <img src="new/log11.jpg" width="222px" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 ">
+        <div class="col-md-12 content-images">
+          <img src="new/log19.jpg" width="100%"" height="256px"><br><br><br> 
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-12 content-images">
+          <img src="new/log1.jpg" width="100%" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-12  content-images">
+          <img src="new/sed.jpg" width="100%" height="256px"><br><br><br>
+        <p class="tovar-name">Lorem ipsum dolor sit amet, consectetur </p><br>
+        <h4>225 000 som <span class="glyphicon glyphicon-stats"></span></h4><br>
+        <button class="sent-button" onclick="send()"><p>Добавить в корзину</p></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- close -->
+<br>
+<!-- reklama -->
+<div class="row_galls">
+<div class="container">
+  <div class="row row_gall">
+    <div class="col-md-3 col-sm-6  col-xs-12 line">
+        <span class="span_galereya"><img src="src/images/car.png" width="50px"></span>
+      <p class="gallereya"><b>УДОБНАЯ И БЫСТРАЯ ДОСТАВКА<br></b>
+      </p>
+    </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+        <span class="span_galereya"><img src="src/images/more.png" width="50px"></span>
+      <p class="gallereya"><b>ПЛАТИТЕ КАК УГОЛНО</b><br>
+      </p>
+    </div>
+    <div class="col-md-3 col-sm-6  col-xs-12">
+        <span class="span_galereya"><img src="src/images/tell.png" width="50px"></span>
+      <p class="gallereya"><b>ПОДДЕРЖКА 7 ДНЕЙ В НЕДЕЛЮ</b><br>
+      </p>
+    </div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <span class=" span_galereya"><img src="src/images/like.png" width="50px"></span>
+      <p class="gallereya"><b>ГАРАНТИЯ КАЧЕСТВА</b><br>
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- dastafka -->
+<div class="container paypol">
+  <div class="row">
+    <div class="col-md-3 col-sm-3  col-xs-12 line">
+       <h3>МЫ ПРИНИМАЕМ:</h3>
+    </div>
+  <div class="col-md-3 col-sm-3 col-xs-12 text-center">
+       <img src="src/images/click.jpeg" width="100px">
+    </div>
+    <div class="col-md-3 col-sm-3  col-xs-12 text-center">
+       <img src="src/images/cart1.png">
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-12 text-center">
+     <img src="src/images/cart3.png">
+    </div>
+  </div>
+</div>
+<hr>
+<footer>
+  <div class="container footer_text">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-x-12 ">
+        <img src="src/images/img2.png">
+        <h3>ЕСТЬ ВОПРОСЫ? ЗВОНИТЕ!</h3>
+        <h4>+998(71) 202-202-1</h4><br>
+        <button class="footerbtn"><p>ОСТАВИТЬ ОТЗЫВ</p></button>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 texts">
+        <p>О компании</p><br>
+        <p>Политика конфиденциальности</p><br>
+        <p>Оферта</p><br>
+        <p>co-friendli</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 texts"  >
+        <p>Вакансии</p><br>
+        <p>оплата и достафка</p><br>
+        <p>Обмен и возврат</p><br>
+        <p>Бонусная прогррамма</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 texts">
+        <p>Получайте информацию о скидках, акциях и интересных предложениях.</p><br>
+        <form action="" method="POST" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="" placeholder="E-mail">
+          </div>
+          <button type="submit" class="btn btn-primary">Подписаться</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="no"></div>
+
+
+<script src="jquery/dist/jquery.min.js"></script>
+<script src="src/dist/js/bootstrap.min.js"></script>
+<script src="src/jquery.nicescroll.min.js" type="text/javascript"></script>
+<script src="src/js.js" type="text/javascript"></script>
+<script src="src/test.js" type="text/javascript"></script>
+</body>
+</html>
